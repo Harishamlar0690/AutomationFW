@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.IntiateTracsactions_tc">
+        <methods>
+          <include name="afterMethoed"/>
+          <include name="_afterSuite"/>
+          <include name="_beforeSuite"/>
+          <include name="beforeMethoed"/>
+          <include name="submit_NCD_Form1"/>
+        </methods>
+      </class> <!-- testcases.IntiateTracsactions_tc -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
